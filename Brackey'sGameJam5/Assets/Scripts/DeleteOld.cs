@@ -5,8 +5,9 @@ using UnityEngine;
 public class DeleteOld : MonoBehaviour
 {
     public GameObject Prefab;
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider target)
     {
-        Destroy(Prefab);
+        if (target.tag == "Player")
+            Destroy(Prefab);
     } 
 }

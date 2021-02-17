@@ -501,7 +501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667782674}
   m_LocalRotation: {x: 0.6830118, y: 0.1830127, z: -0.1830121, w: 0.6830138}
-  m_LocalPosition: {x: 14.129037, y: 3.61, z: 24.640001}
+  m_LocalPosition: {x: 14.162531, y: 3.6100013, z: 25.198013}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 575975766}
@@ -1210,7 +1210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007275242574260086}
   m_LocalRotation: {x: 0.6830118, y: 0.1830127, z: -0.1830121, w: 0.6830138}
-  m_LocalPosition: {x: -14.057497, y: 3.61, z: 27.416277}
+  m_LocalPosition: {x: -15.048523, y: 3.6099994, z: 27.69977}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1839734330090571179}
@@ -1718,6 +1718,8 @@ GameObject:
   - component: {fileID: 4093940045548375819}
   - component: {fileID: 9118817082326190050}
   - component: {fileID: 2268589355151614220}
+  - component: {fileID: 3603953296165492502}
+  - component: {fileID: 909529392230246715}
   m_Layer: 0
   m_Name: PhoneBody_low
   m_TagString: Untagged
@@ -1788,6 +1790,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3603953296165492502
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4628434245631279986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45438206, y: 0.239984, z: 1.4471246}
+  m_Center: {x: 0.0026231573, y: 0.122049004, z: 0.49691808}
+--- !u!114 &909529392230246715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4628434245631279986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b947175284088468db20e8ef8d0413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5063270470808281021
 GameObject:
   m_ObjectHideFlags: 0

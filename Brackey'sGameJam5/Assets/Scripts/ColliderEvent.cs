@@ -7,14 +7,18 @@ public class ColliderEvent : MonoBehaviour
 {
     public UnityEvent EnterEvent;
     public UnityEvent ExitEvent;
-    // Start is called before the first frame update
-    void OnTriggerEnter()
+
+    void OnTriggerEnter(Collider target)
     {
-        EnterEvent.Invoke();
+        if (target.tag == "Player")
+            EnterEvent.Invoke();
     }
 
-    void OnTriggerExit()
+    void OnTriggerExit(Collider target)
     {
-        ExitEvent.Invoke();
+        if (target.tag == "Player")
+        {
+            ExitEvent.Invoke();
+        }
     }
 }

@@ -11,7 +11,6 @@ public class LevelLoop : MonoBehaviour
     void OnMouseEnter()
     {
         isLooking = true;
-        Debug.Log("Is looking");
     }
 
     void OnMouseExit()
@@ -19,9 +18,9 @@ public class LevelLoop : MonoBehaviour
         isLooking = false;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider target)
     {
-        if (isLooking == true)
+        if (target.tag == "Player" && (isLooking == true))
         {
             Instantiate(Prefab, spawnLocation.position, spawnLocation.rotation);
             onInteract.Invoke();

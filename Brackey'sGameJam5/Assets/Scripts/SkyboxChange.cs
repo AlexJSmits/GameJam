@@ -12,14 +12,16 @@ public class SkyboxChange : MonoBehaviour
     {
         RenderSettings.skybox = skybox1;
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider target)
     {
-        RenderSettings.skybox = skybox2;
+        if (target.tag == "Player")
+            RenderSettings.skybox = skybox2;
     }
 
     // Update is called once per frame
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider target)
     {
-        RenderSettings.skybox = skybox1;
+        if (target.tag == "Player")
+            RenderSettings.skybox = skybox1;
     }
 }
