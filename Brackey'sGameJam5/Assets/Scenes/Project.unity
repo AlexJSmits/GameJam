@@ -1086,6 +1086,10 @@ PrefabInstance:
       propertyPath: EnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2130128957}
+    - target: {fileID: 1887293094, guid: ad3a4d5361e50dd419105607033cc06e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2017146440, guid: ad3a4d5361e50dd419105607033cc06e, type: 3}
       propertyPath: spawnLocation
       value: 
@@ -1150,6 +1154,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1574164990}
+    - target: {fileID: 5735985477218421364, guid: ad3a4d5361e50dd419105607033cc06e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8666212562887770318, guid: ad3a4d5361e50dd419105607033cc06e, type: 3}
       propertyPath: m_Mesh
       value: 
