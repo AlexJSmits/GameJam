@@ -298,8 +298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 821.6468, y: -367.88278}
-  m_SizeDelta: {x: 145.8024, y: 59.373627}
+  m_AnchoredPosition: {x: 763, y: -367.88}
+  m_SizeDelta: {x: 261.87766, y: 59.373627}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &189512994
 MonoBehaviour:
@@ -978,6 +978,10 @@ MonoBehaviour:
     Door | Unity Asset Store | Jan Fidler
 
 
+    Floor | Direct |
+    Chloe Robson
+
+
 
 '
   m_isRightToLeft: 0
@@ -1018,7 +1022,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 20
+  m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -1587,7 +1591,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Credits
+  m_Text: Attributions
 --- !u!222 &584016897
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2084,7 +2088,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 20
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -2494,7 +2498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912512381}
   m_Layer: 5
-  m_Name: Acknowledgment
+  m_Name: Acknowledgments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
